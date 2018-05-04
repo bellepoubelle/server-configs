@@ -1,0 +1,5 @@
+sudo certbot certonly --email security@bellepoubelle.fr --standalone 
+--rsa-key-size 4096 --quiet --agree-tos --expand -d 
+bellepoubelle.fr,www.bellepoubelle.fr,api.bellepoubelle.fr,app.bellepoubelle.fr,management.bellepoubelle.fr 
+--pre-hook "systemctl stop nginx.service" --post-hook "systemctl start 
+nginx.service"

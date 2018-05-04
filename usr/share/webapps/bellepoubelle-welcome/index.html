@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bgimg {
+    background-image: url('/background.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.bottomright {
+    position: absolute;
+    bottom: 0;
+    right: 16px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.topmiddle {
+    position: absolute;
+    top: 0;
+    left: 33%;
+    right: 33%;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.topright {
+    position: absolute;
+    top: 0;
+    right: 16px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.middle {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+</style>
+<title>BellePoubelle - Smart Waste & Recycling - Welcome Page</title>
+</head>
+<body>
+
+<div class="bgimg">
+  <div class="middle">
+     <a href="https://app.bellepoubelle.fr"><img class="center" src="logo.png"/></a>
+    <a href="https://app.bellepoubelle.fr" style="color: white; text-decoration: none;"><h1>BELLE POUBELLE</h1></a>
+    <a href="https://app.bellepoubelle.fr" style="color: white; text-decoration: none;"><h3 style="margin-top: -25px;">Smart Waste & Recycling</h3></a>
+  </div>
+  <div class="topmiddle">
+    <h2></h2>
+  </div>
+  <div class="topleft">
+    <a href="https://management.bellepoubelle.fr" style="color: white; text-decoration: none;"><h2>« Management</h2></a>
+  </div>
+  <div class="topright">
+    <a href="https://app.bellepoubelle.fr" style="color: white; text-decoration: none;"><h2>App »</h2></a>
+  </div>
+  <div class="bottomleft">
+    <p>H4212 | INSA de Lyon</p>
+  </div>
+  <div class="bottomright">
+    <p><a href="https://github.com/bellepoubelle" style="color: white; text-decoration: none;">Source Code</a></p>
+  </div>
+</div>
+
+</body>
+</html>
